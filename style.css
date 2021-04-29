@@ -1,0 +1,62 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    font-family: "Lucida Console", "Courier New", monospace;
+    /* for Heroku deployment*/
+    zoom: 80%;
+}
+#map {
+    bottom: 0px;
+    height: calc(100% - 67px);
+}
+#myChart {
+    bottom: 0px;;
+    /* background-color: aquamarine; */
+    height: calc(100% - 67px);
+}
+.col-4, .col-8
+{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.navbar-dark {
+    background-color: #252a47;
+}
+
+.chart {
+    padding: 15px;
+}
+
+.icons {
+        height: 50px;
+        font-size: 31px;
+        font-weight: bold;
+        text-align: center;
+        color: #777777;
+        margin: 20px;
+}
+
+.description {
+    /* height: 100px; */
+    /* background-color: palevioletred; */
+    margin: 20 0;
+    padding: 40px;
+}
+
+.title {
+    height: 50px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin: 40px 20px 80px 20px;
+ }
+
+
+ .mapboxgl-canvas-container {
+
+    height: 100vh;
+}
